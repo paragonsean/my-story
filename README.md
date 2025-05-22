@@ -1,28 +1,25 @@
 # My Story
 
-This repository contains a simple GitHub Pages website.
-
-To preview the site locally, open `index.html` in your browser.
-You can read the personal reflection at `story.html`.
-
 This repository now hosts a simple Jekyll blog for GitHub Pages.
 
-To preview the site locally, run `bundle exec jekyll serve` if you have Ruby installed, or simply open `_site/index.html` after a build.
+## Preview Locally
 
-This repository contains a simple GitHub Pages website.
+If you have Ruby and Bundler installed:
 
-To preview the site locally, open `index.html` in your browser.
+1. Run `bundle install` (if needed).
+2. Run `bundle exec jekyll serve`.
+3. Open [http://localhost:4000](http://localhost:4000) in your browser.
+
+Alternatively, you can open `index.html` in your browser or browse the built `_site` directory directly after a build.
+
+You can read the personal reflection at `story.html`.
 
 ## Enabling GitHub Pages
 
-1. Open the repository settings on GitHub.
-2. Choose the `main` branch and the root directory as the source for GitHub Pages.
-3. Save your changes.
+1. Open the repository **Settings** on GitHub.
+2. Scroll down to **Pages**.
+3. Under **Source**, select the `main` branch and `/ (root)` directory.
+4. Click **Save**.
 
-After a few minutes, your site will be available at `https://<username>.github.io/<repository>`.
-
-
-## Writing Posts
-
-Add new Markdown files to the `_posts` directory using the `YYYY-MM-DD-title.md` naming convention. Jekyll will automatically convert them into blog posts.
+After a few minutes, your site will be live at:
 
